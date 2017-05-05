@@ -1,5 +1,5 @@
 import ibis
-from bq_handler import BQHandler
+from bq import BQHandler
 from impala_to_sql import _impala_to_sql
 
 BQ_IBIS_THPE_DICT = {'INTEGER': 'int64', 'BOOLEAN': 'boolean', 'STRING': 'string', 'FLOAT': 'float64', 'TIMESTAMP':'timestamp'}
