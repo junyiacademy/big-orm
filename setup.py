@@ -4,7 +4,7 @@ from distutils.core import setup
 setup(
     name='big-orm',    # This is the name of your PyPI-package.
     packages=['big_orm'],
-    version='0.03',                          # Update the version number for new releases
+    version='0.031',                          # Update the version number for new releases
     description='ORM for bigquery, reuse and maintain bigquery sql more easily',
     author='ENsu',
     author_email='ensu@junyiacademy.org',
